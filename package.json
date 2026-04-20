@@ -1,0 +1,6 @@
+VITE_SUPABASE_URL=https://your-project.supabase.co
+VITE_SUPABASE_ANON_KEY=your-anon-key
+VITE_PUBLIC_HOST=www.yourdomain.com
+VITE_PUBLIC_URL=https://www.yourdomain.com
+VITE_ADMIN_HOST=admin.yourdomain.com
+VITE_ADMIN_URL=https://admin.yourdomain.com

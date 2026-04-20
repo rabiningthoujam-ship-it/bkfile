@@ -1,0 +1,16 @@
+<svg width="320" height="96" viewBox="0 0 320 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="6" y="12" width="56" height="56" rx="18" fill="url(#paint0_linear)"/>
+  <path d="M22 52V28H35.2C41.36 28 45.2 31.04 45.2 36.176C45.2 39.728 43.216 42.096 39.856 43.088C43.888 43.952 46.16 46.496 46.16 50.688C46.16 56.336 41.936 60 35.04 60H22V52ZM29.12 41.248H33.696C36.32 41.248 37.984 39.904 37.984 37.408C37.984 35.008 36.32 33.696 33.696 33.696H29.12V41.248ZM29.12 54.176H34.288C37.392 54.176 39.232 52.704 39.232 49.92C39.232 47.168 37.392 45.664 34.288 45.664H29.12V54.176Z" fill="white"/>
+  <text x="82" y="44" fill="#A22062" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-weight="700" letter-spacing="-0.5">
+    Borkeina
+  </text>
+  <text x="84" y="65" fill="#D14C8C" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" letter-spacing="3">
+    MATCHMAKING • WEDDINGS
+  </text>
+  <defs>
+    <linearGradient id="paint0_linear" x1="10" y1="16" x2="58" y2="64" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF82B8"/>
+      <stop offset="1" stop-color="#B71D69"/>
+    </linearGradient>
+  </defs>
+</svg>

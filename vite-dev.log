@@ -1,0 +1,63 @@
+# Borkeina
+
+Borkeina is a React + Supabase web application that combines:
+
+- matrimonial profile matching
+- wedding products ecommerce
+- wedding services marketplace
+- separate admin console support
+
+## Core Files
+
+- `src/`
+- `public/`
+- `index.html`
+- `package.json`
+- `package-lock.json`
+- `vite.config.js`
+- `.env.example`
+- `.gitignore`
+- `vercel.json`
+- `netlify.toml`
+
+## Run Locally
+
+```bash
+npm install
+npm run dev
+```
+
+## Build
+
+```bash
+npm run build
+```
+
+## Supabase Setup
+
+Use this file in Supabase SQL Editor:
+
+- [supabase-setup-nofunc.sql](C:/Users/rabin/Documents/Codex/2026-04-19-build-web-application-using-react-and/supabase-setup-nofunc.sql)
+
+After signup, assign your admin user manually:
+
+```sql
+insert into public.user_roles (user_id, role)
+values ('YOUR_AUTH_USER_ID', 'admin');
+```
+
+## Deployment
+
+- Public domain: `www.borkeina.com`
+- Admin domain: `admin.borkeina.com`
+
+Environment variables:
+
+```env
+VITE_PUBLIC_HOST=www.borkeina.com
+VITE_PUBLIC_URL=https://www.borkeina.com
+VITE_ADMIN_HOST=admin.borkeina.com
+VITE_ADMIN_URL=https://admin.borkeina.com
+VITE_SUPABASE_URL=https://xboeoxwcqihziasxntee.supabase.co
+VITE_SUPABASE_ANON_KEY=your-anon-key
+```
